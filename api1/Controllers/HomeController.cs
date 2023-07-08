@@ -14,7 +14,7 @@ public class HomeController : ControllerBase
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-        _connection = new SqlConnection("data source=(local); initial catalog=xxAceleraDev; user id=teste; password=teste;trusted_connection=true; encrypt=false");
+        _connection = new SqlConnection("data source=(local); initial catalog=AceleraDev; user id=teste; password=teste;trusted_connection=true; encrypt=false");
     }
 
     [HttpGet]
